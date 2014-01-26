@@ -1,3 +1,17 @@
-
 # Ignore build generated files
 build
+
+#Keep pbw file
+!build/*.pbw
+
+# Ignore waf build tool generated files
+.waf*
+.lock-waf*
+
+# Ignore linked files/directories
+waf
+wscript
+tools
+include
+lib
+pebble_app.ld
