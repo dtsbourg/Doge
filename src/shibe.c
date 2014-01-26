@@ -56,4 +56,5 @@ int main(void) {
   text_layer_destroy(time_layer);
   window_destroy(window);
   layer_destroy(layer);
+  tick_timer_service_unsubscribe();
 }
