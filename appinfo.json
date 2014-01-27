@@ -1,0 +1,28 @@
+{
+  "uuid": "c0e97ff3-4c2f-4e76-b72c-e668d076097d",
+  "shortName": "shibe",
+  "longName": "shibe",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "SHIBE",
+        "file": "images/shibe.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_COMIC_SANS_25",
+        "file": "fonts/2086.ttf"
+      }
+    ]
+  }
+}
